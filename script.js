@@ -6,7 +6,6 @@ btn.addEventListener("click", function(){
     query
     .then(data => data.json())
     .then(quote => generateQuote(quote))
-    console.log(query)
 });
 
 function generateQuote(quoteCode){
